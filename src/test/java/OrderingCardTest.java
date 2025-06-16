@@ -49,6 +49,6 @@ public class OrderingCardTest {
 
         WebElement successMessage = driver.findElement(By.cssSelector("[data-test-id='order-success']"));
         Assertions.assertTrue(successMessage.isDisplayed());
-        Assertions.assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.!", successMessage.getText().trim());
+        Assertions.assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", successMessage.getText().trim());
     }
 }
