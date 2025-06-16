@@ -39,7 +39,7 @@ public class OrderingCardTest {
         nameField.sendKeys("Иван Иванов");
 
         WebElement phoneField = driver.findElement(By.cssSelector("[data-test-id='phone'] input"));
-        phoneField.sendKeys("+79999999999");
+        phoneField.sendKeys("+79991234567");
 
         WebElement agreementCheckbox = driver.findElement(By.cssSelector("[data-test-id='agreement']"));
         agreementCheckbox.click();
